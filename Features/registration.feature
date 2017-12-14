@@ -1,3 +1,4 @@
+@register
 Feature: registering a new user
 
 In order to become a site member
@@ -10,4 +11,4 @@ Given user  visit newtours homepage
 When user click on register link
 And user enter userName, password, confirm password, and click submit
 Then user recieves a confirmation
-And user closes the browser
+And user closes the browser 
